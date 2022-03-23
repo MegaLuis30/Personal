@@ -5,6 +5,7 @@ DESARROLLO DE LA API
 La clase DemoWeb1.java
 Es la clase que arranca cuando iniciamos la aplicación:
 
+```
 package com.mitocode;
 
 import org.springframework.boot.SpringApplication;
@@ -20,15 +21,16 @@ public class DemoWeb1 {
 		
 	}
 	
-} "
+} 
 
+```
 
 
 La clase Person.java
 
 La entidad de nuestro objeto Person, esta clase va a mapear los atributos como campos en la base de datos:
 
-
+```
 package com.mitocode;
 
 import javax.persistence.Column;
@@ -114,11 +116,14 @@ public class person {
 	
 } 
 
+```
 
 La clase PersonRepository.java
 
 Esta clase nos ayuda a realizar operaciones en nuestra base de datos sin escribir tantas líneas de código, Spring Data realiza esto por nosotros, operaciones como delete, save, findAll, son algunos de los métodos que realiza automáticamente:
 
+
+```
 package com.mitocode;
 
 import java.util.List;
@@ -141,7 +146,7 @@ public interface PersonRepository {
 	
 } 
 
-
+```
 
 
 

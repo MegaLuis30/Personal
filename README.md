@@ -5,7 +5,7 @@ DESARROLLO DE LA API
 La clase DemoWeb1.java
 Es la clase que arranca cuando iniciamos la aplicación:
 
-```
+```Java
 package com.mitocode;
 
 import org.springframework.boot.SpringApplication;

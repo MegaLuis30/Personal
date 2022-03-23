@@ -30,7 +30,7 @@ La clase Person.java
 
 La entidad de nuestro objeto Person, esta clase va a mapear los atributos como campos en la base de datos:
 
-```
+```java
 package com.mitocode;
 
 import javax.persistence.Column;
@@ -123,7 +123,7 @@ La clase PersonRepository.java
 Esta clase nos ayuda a realizar operaciones en nuestra base de datos sin escribir tantas líneas de código, Spring Data realiza esto por nosotros, operaciones como delete, save, findAll, son algunos de los métodos que realiza automáticamente:
 
 
-```
+```java
 package com.mitocode;
 
 import java.util.List;
